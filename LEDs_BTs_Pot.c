@@ -16,9 +16,9 @@ void loop()
     digitalWrite(13, HIGH);
     while (digitalRead(2) == HIGH) delay(10);
   }
-  if (digitaRead(3) and pot > 253)
+  if (digitalRead(3) and pot > 253)
   {
-    digitalWrite(11, HIGH);
+    digitalWrite(12, HIGH);
     while (digitalRead(3) == HIGH) delay(10);
   }
   if (digitalRead(2)) {
@@ -33,6 +33,6 @@ void loop()
     digitalWrite(13, LOW);
   }
   if (digitalRead(3) == LOW) {
-    digitalWrite(11, LOW);
+    digitalWrite(12, LOW);
   }
 }
